@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+      <link rel="icon" href="img/icon.svg">
+      <link rel="stylesheet" href="css/style.css">
+      <title>Document</title>
+</head>
+<body>
+      <section class="container">
+            <aside class="left-menu">
+                  <section class="container-settings">
+                        <a href="#">
+                              <img src="img/logo.svg" alt="">
+                        </a>
+                        <a href="#">
+                              <img src="img/hash.svg" alt="">
+                              Explorar
+                        </a>
+                        <a href="#">
+                              <img src="img/gear.svg" alt="">
+                              Configurações
+                        </a>
+                  </section>
+            </aside>
+            <main>
+                  <header class="explorar">
+                        <p>Explorar</p>
+                        <img src="img/gear.svg" alt="">
+                  </header>
+                  <section class="content">
+
+                  </section>
+            </main>
+            <aside class="right-menu">
+                  <section class="new-twitter-card">
+                        <p>Novo no Twitter?</p>
+                        <p class="gray">Inscreva-se para ter sua própria timeline personalizada!</p>
+                        <section class="button-container">
+                              <button>Fazer login com o Google</button>
+                              <button><img src="img/apple.svg" alt=""> Inscreva-se com Apple</button>
+                              <button>Criar conta</button>
+                        </section>
+                        <p class="gray">
+                              Ao se inscrever, você concorda com os Termos de Serviço e a Política de Privacidade, incluindo o Uso de Cookies.
+                        </p>
+                  </section>
+            </aside>
+      </section>
+      <section class="login">
+            <p><span>Não perca o que está acontecendo</span><br> As pessoas que usam o Twitter são as primeiras a saber.</p>
+            <section class="button-container-login">
+                  <button id="myBtn" class="entrar" onclick="showModal()">Entrar</button>
+                  <button class="inscrever">Inscreva-se</button>
+            </section>
+      </section>
+
+      <div class="modal" id="myModal">
+            <div class="modal-content">
+                  <section class="x">
+                        <span class="close">&times;</span>
+                        <img src="img/logo.svg" alt="">
+                  </section>
+                  <section class="content-modal">
+                        <h1>Entrar no Twitter</h1>
+                        <section class="button-container">
+                              <button>Fazer login com o Google</button>
+                              <button><img src="img/apple.svg" alt=""> Inscreva-se com Apple</button>
+                        </section>
+                        <p class="ou">OU</p>
+                        <input type="text" placeholder="Celular, Email ou Nome de usuário">
+                        <button class="avanc">Avançar</button>
+                        <button class="senha">Esqueceu sua senha?</button>
+                        <p class="conta">Não tem conta? <span>Inscreva-se</span></p>
+                  </section>
+            </div>
+        </div>
+    
+        <button id="myBtn" onclick="">Abrir Modal</button>
+    
+        <script src="js/modal.js"></script>
+      <script src="js/script.js"></script>
+</body>
+</html>
